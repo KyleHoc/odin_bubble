@@ -4,7 +4,7 @@ def bubble_sort (arr)
 
     x.times do 
         arr.each_with_index do |element, index|
-            next if index == 5
+            next if index == x
             a = arr[index]
             b = arr[index + 1]
             if a > b
